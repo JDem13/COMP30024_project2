@@ -8,6 +8,7 @@ and bottom goal.
 MAX_LENGTH = 1000000
 
 from inPath import withinBounds
+from shortestPath import shortestPath
 
 def goalDistance(board, node, n, side):
     

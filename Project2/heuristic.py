@@ -1,7 +1,11 @@
 # -*- coding: utf-8 -*-
 
+
 WEIGHT_1 = 0
 WEIGHT_2 = 0
+
+from canCapture import canCapture
+from goalPathHeuristics import goalDistance
 
 def heuristic(board, node, n):
     
