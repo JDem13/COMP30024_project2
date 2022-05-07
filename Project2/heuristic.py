@@ -15,10 +15,11 @@ def heuristic(board, node, n):
     distance_top = goalDistance(board, node, n, "top")
     distance_bottom = goalDistance(board, node, n, "bottom")
     
-    can_capture = canCapture(board, n, node)
+    can_capture = canCapture(board, n, node)[0]
     
     return = (WEIGHT_1 * (1/(distance_top + distance_bottom)) + 
               WEIGHT_2*can_capture)
+    
     
     
     
