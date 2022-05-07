@@ -71,7 +71,7 @@ def shortestDist(node, goalNodes):
     
     for goalNode in goalNodes:
         if (shortestPath(node, goalNode) < dist):
-            dist = shortest_path(node, goalNode)
+            dist = shortestPath(node, goalNode)
     
     return dist
        
